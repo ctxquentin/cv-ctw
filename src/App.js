@@ -17,10 +17,9 @@ class App extends Component {
             sections= {[{
               type: 'text',
               title: 'Profil',
-              content: 'Passioné d\'informatique depuis toujours, j\'ai commencé a me formé ' +
-                  'en autodidacte en 2018 au développement web. Après une première expérience professionel ' +
-                  'réussi, je suis a la recherche de nouveau défis dans les quels mettre a profit  ' +
-                  'mes compétences tout en continuant à évoluer.',
+              content: 'Passionné d\'informatique depuis toujours, j\'ai commencé à me former en autodidacte en 2018 au développement web. ' +
+                'Après une première expérience professionnelle réussie, je suis à la recherche de nouveaux défis dans lesquels mettre ' +
+                'à profit mes compétences tout en continuant à évoluer.',
               icon: 'usertie'
             },
             {
@@ -31,7 +30,7 @@ class App extends Component {
                     {
                         title: 'Stage développeur web Junior',
                         company: 'Maespirit',
-                        description : 'Un premier stage d\'un mois dans le quel j\'ai pu m\'initier au développement web en entreprise',
+                        description : 'Un premier stage d\'un mois dans lequel j\'ai pu m\'initier au développement web en entreprise',
                         datesBetween : '2018',
                         descriptionTags: ['Javascript', 'PHP']
                     },
@@ -45,16 +44,16 @@ class App extends Component {
                     {
                         title: 'Développeur web Junior',
                         company: 'Maespirit',
-                        description : 'Après un an d\'alternance réussi et ma formation complété, j\'ai eu la chance de continuer a évoluer au sein de Maespirit, ' +
+                        description : 'Après un an d\'alternance réussi et ma formation complétée, j\'ai eu la chance de continuer a évoluer au sein de Maespirit, ' +
                             'une agence digitale',
                         datesBetween : '07/2019  -  04/2021',
-                        descriptionTags: ['Javascript', 'PHP', 'MYSQL', 'HTML']
+                        descriptionTags: ['Javascript', 'PHP', 'MYSQL', 'HTML', 'React']
                     }
                 ]
             },
             {
                 type: 'common-list',
-                title: 'Diplomes',
+                title: 'Diplômes',
                 icon: 'graduation',
                 items: [
                     {
